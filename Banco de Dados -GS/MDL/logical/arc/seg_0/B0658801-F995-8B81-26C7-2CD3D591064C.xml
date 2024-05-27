@@ -1,0 +1,14 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Arc class="oracle.dbtools.crest.model.design.logical.Arc" directorySegmentName="seg_0" id="B0658801-F995-8B81-26C7-2CD3D591064C" name="Arc_1">
+<createdBy>Win 10</createdBy>
+<createdTime>2024-05-27 12:20:11 UTC</createdTime>
+<ownerDesignName>MDL</ownerDesignName>
+<engineerTo>
+<item key="80E9723A-F7A3-E7F3-51A4-F57D8E1EABF1" value="true"/>
+</engineerTo>
+<entity>FDA2E2CD-83A8-BB53-CA17-1963B2A5F43D</entity>
+<relations>
+<relationID>E97F2899-159B-B972-BAEC-C448753BE56B</relationID>
+<relationID>A984CA55-22C4-F75F-D09C-B7E6E21DDAA7</relationID>
+</relations>
+</Arc>

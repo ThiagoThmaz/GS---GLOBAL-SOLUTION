@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK_CLIENTE" directorySegmentName="seg_0" id="3091DAFF-45B8-7733-68F4-B555CE7BCD79">
+<createdBy>Win 10</createdBy>
+<createdTime>2024-05-27 11:47:40 UTC</createdTime>
+<ownerDesignName>MDL</ownerDesignName>
+<engineerTo>
+<item key="80E9723A-F7A3-E7F3-51A4-F57D8E1EABF1" value="true"/>
+</engineerTo>
+<sourcePk>01A1BD16-5190-9375-CF06-21B94CDE86EC</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>12A7C94F-9675-04E8-4C8E-7FD328DFEBB7</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>C9F19959-C651-F56E-9D57-8F2AA0DFBA52</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK_BARCACAO" directorySegmentName="seg_0" id="BB3FABE4-6246-1A7C-A70A-9BD7AB7EA7AE">
+<createdBy>Win 10</createdBy>
+<createdTime>2024-05-27 12:03:38 UTC</createdTime>
+<ownerDesignName>MDL</ownerDesignName>
+<engineerTo>
+<item key="80E9723A-F7A3-E7F3-51A4-F57D8E1EABF1" value="true"/>
+</engineerTo>
+<sourcePk>051F88E3-D09C-00B4-829A-0E7E06EEEA96</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>C9F19959-C651-F56E-9D57-8F2AA0DFBA52</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>FDA2E2CD-83A8-BB53-CA17-1963B2A5F43D</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,87 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="C9F19959-C651-F56E-9D57-8F2AA0DFBA52" name="T_BARCACAO">
+<createdBy>Win 10</createdBy>
+<createdTime>2024-05-27 11:41:43 UTC</createdTime>
+<ownerDesignName>MDL</ownerDesignName>
+<engineerTo>
+<item key="80E9723A-F7A3-E7F3-51A4-F57D8E1EABF1" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_BARCA" id="D708DBEF-10FA-365C-C563-6DF7E3F350AA">
+<createdBy>Win 10</createdBy>
+<createdTime>2024-05-27 11:42:19 UTC</createdTime>
+<ownerDesignName>MDL</ownerDesignName>
+<engineerTo>
+<item key="80E9723A-F7A3-E7F3-51A4-F57D8E1EABF1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>101</dataTypePrecision>
+<ownDataTypeParameters>,101,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_CLIENTE" id="39B66773-C01C-E61E-053F-96F4CDFCBBCC">
+<createdBy>Win 10</createdBy>
+<createdTime>2024-05-27 11:47:40 UTC</createdTime>
+<generatorID>3091DAFF-45B8-7733-68F4-B555CE7BCD79</generatorID>
+<ownerDesignName>MDL</ownerDesignName>
+<engineerTo>
+<item key="80E9723A-F7A3-E7F3-51A4-F57D8E1EABF1" value="true"/>
+</engineerTo>
+<referedAttribute>BB66C561-92A2-389C-C64C-1FEB06192B63</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>101</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="MODELO_BARCO" id="770A3057-E2C5-8AD8-1CF4-2C71AF95EF3C">
+<createdBy>Win 10</createdBy>
+<createdTime>2024-05-27 11:42:40 UTC</createdTime>
+<ownerDesignName>MDL</ownerDesignName>
+<engineerTo>
+<item key="80E9723A-F7A3-E7F3-51A4-F57D8E1EABF1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>120</dataTypeSize>
+<ownDataTypeParameters>120,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ANO_FABRICACAO" id="886FF1C0-9DDF-495C-AD75-1CFB0829B66F">
+<createdBy>Win 10</createdBy>
+<createdTime>2024-05-27 11:48:00 UTC</createdTime>
+<ownerDesignName>MDL</ownerDesignName>
+<engineerTo>
+<item key="80E9723A-F7A3-E7F3-51A4-F57D8E1EABF1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="051F88E3-D09C-00B4-829A-0E7E06EEEA96" name="T_BARCACAO PK">
+<createdBy>Win 10</createdBy>
+<createdTime>2024-05-27 11:42:25 UTC</createdTime>
+<ownerDesignName>MDL</ownerDesignName>
+<engineerTo>
+<item key="80E9723A-F7A3-E7F3-51A4-F57D8E1EABF1" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>39B66773-C01C-E61E-053F-96F4CDFCBBCC</attributeRef>
+<attributeRef>D708DBEF-10FA-365C-C563-6DF7E3F350AA</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

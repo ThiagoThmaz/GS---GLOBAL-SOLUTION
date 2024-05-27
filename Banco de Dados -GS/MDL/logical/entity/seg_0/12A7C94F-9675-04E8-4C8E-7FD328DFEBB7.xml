@@ -1,0 +1,110 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="12A7C94F-9675-04E8-4C8E-7FD328DFEBB7" name="T_CLIENTE">
+<createdBy>Win 10</createdBy>
+<createdTime>2024-05-27 11:26:20 UTC</createdTime>
+<ownerDesignName>MDL</ownerDesignName>
+<engineerTo>
+<item key="80E9723A-F7A3-E7F3-51A4-F57D8E1EABF1" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_CLIENTE" id="BB66C561-92A2-389C-C64C-1FEB06192B63">
+<createdBy>Win 10</createdBy>
+<createdTime>2024-05-27 11:27:16 UTC</createdTime>
+<ownerDesignName>MDL</ownerDesignName>
+<engineerTo>
+<item key="80E9723A-F7A3-E7F3-51A4-F57D8E1EABF1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>101</dataTypePrecision>
+<ownDataTypeParameters>,101,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NOME" id="0A10AD06-CF87-B52B-5CC2-F10CB5C29396">
+<createdBy>Win 10</createdBy>
+<createdTime>2024-05-27 11:30:04 UTC</createdTime>
+<ownerDesignName>MDL</ownerDesignName>
+<engineerTo>
+<item key="80E9723A-F7A3-E7F3-51A4-F57D8E1EABF1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>120</dataTypeSize>
+<ownDataTypeParameters>120,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CPF" id="11633F9D-1D92-13AD-B816-24F49428BDEC">
+<createdBy>Win 10</createdBy>
+<createdTime>2024-05-27 11:40:25 UTC</createdTime>
+<ownerDesignName>MDL</ownerDesignName>
+<engineerTo>
+<item key="80E9723A-F7A3-E7F3-51A4-F57D8E1EABF1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>11</dataTypePrecision>
+<ownDataTypeParameters>,11,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="EMAIL" id="C9ECCB53-6160-9464-214A-A2C706091787">
+<createdBy>Win 10</createdBy>
+<createdTime>2024-05-27 11:31:28 UTC</createdTime>
+<ownerDesignName>MDL</ownerDesignName>
+<engineerTo>
+<item key="80E9723A-F7A3-E7F3-51A4-F57D8E1EABF1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>120</dataTypeSize>
+<ownDataTypeParameters>120,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TELEFONE" id="68FCD1BA-5E2E-8398-72DA-F1974130D424">
+<createdBy>Win 10</createdBy>
+<createdTime>2024-05-27 11:32:18 UTC</createdTime>
+<ownerDesignName>MDL</ownerDesignName>
+<engineerTo>
+<item key="80E9723A-F7A3-E7F3-51A4-F57D8E1EABF1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>11</dataTypePrecision>
+<ownDataTypeParameters>,11,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DT_NASC" id="0EB8D0D7-CB81-5C92-1DB9-78F3BEE4A98F">
+<createdBy>Win 10</createdBy>
+<createdTime>2024-05-27 11:32:57 UTC</createdTime>
+<ownerDesignName>MDL</ownerDesignName>
+<engineerTo>
+<item key="80E9723A-F7A3-E7F3-51A4-F57D8E1EABF1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="01A1BD16-5190-9375-CF06-21B94CDE86EC" name="T_CLIENTE PK">
+<createdBy>Win 10</createdBy>
+<createdTime>2024-05-27 11:31:18 UTC</createdTime>
+<ownerDesignName>MDL</ownerDesignName>
+<engineerTo>
+<item key="80E9723A-F7A3-E7F3-51A4-F57D8E1EABF1" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>BB66C561-92A2-389C-C64C-1FEB06192B63</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

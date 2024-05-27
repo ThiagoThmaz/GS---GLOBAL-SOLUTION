@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="MDL" id="7C8543AB-2E58-F540-96CE-836F20649CE3" version="3.5">
+<createdBy>Win 10</createdBy>
+<createdTime>2024-05-27 11:25:20 UTC</createdTime>
+<ownerDesignName>MDL</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>7C8543AB-2E58-F540-96CE-836F20649CE3</designId>
+</OSDM_Design>

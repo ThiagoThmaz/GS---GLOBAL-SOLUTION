@@ -1,0 +1,120 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="FDA2E2CD-83A8-BB53-CA17-1963B2A5F43D" name="T_LEITOR">
+<createdBy>Win 10</createdBy>
+<createdTime>2024-05-27 11:36:53 UTC</createdTime>
+<ownerDesignName>MDL</ownerDesignName>
+<engineerTo>
+<item key="80E9723A-F7A3-E7F3-51A4-F57D8E1EABF1" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_LEITOR" id="FA39B64F-9A16-9A9C-6BD3-1FA62DD808A7">
+<createdBy>Win 10</createdBy>
+<createdTime>2024-05-27 12:05:32 UTC</createdTime>
+<ownerDesignName>MDL</ownerDesignName>
+<engineerTo>
+<item key="80E9723A-F7A3-E7F3-51A4-F57D8E1EABF1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>101</dataTypePrecision>
+<ownDataTypeParameters>,101,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_CLIENTE" id="86DBB8AE-6827-B69C-A15D-F6A7A778667D">
+<createdBy>Win 10</createdBy>
+<createdTime>2024-05-27 12:03:38 UTC</createdTime>
+<generatorID>BB3FABE4-6246-1A7C-A70A-9BD7AB7EA7AE</generatorID>
+<ownerDesignName>MDL</ownerDesignName>
+<engineerTo>
+<item key="80E9723A-F7A3-E7F3-51A4-F57D8E1EABF1" value="true"/>
+</engineerTo>
+<referedAttribute>39B66773-C01C-E61E-053F-96F4CDFCBBCC</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>101</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_BARCA" id="71167F1A-C021-373C-3E5D-354CAF211BA0">
+<createdBy>Win 10</createdBy>
+<createdTime>2024-05-27 12:03:38 UTC</createdTime>
+<generatorID>BB3FABE4-6246-1A7C-A70A-9BD7AB7EA7AE</generatorID>
+<ownerDesignName>MDL</ownerDesignName>
+<engineerTo>
+<item key="80E9723A-F7A3-E7F3-51A4-F57D8E1EABF1" value="true"/>
+</engineerTo>
+<referedAttribute>D708DBEF-10FA-365C-C563-6DF7E3F350AA</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>101</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_QUALIDADE" id="389ACDCF-31C2-ACED-F4E9-B68E561895D5">
+<createdBy>Win 10</createdBy>
+<createdTime>2024-05-27 12:14:40 UTC</createdTime>
+<generatorID>A984CA55-22C4-F75F-D09C-B7E6E21DDAA7</generatorID>
+<ownerDesignName>MDL</ownerDesignName>
+<engineerTo>
+<item key="80E9723A-F7A3-E7F3-51A4-F57D8E1EABF1" value="true"/>
+</engineerTo>
+<referedAttribute>EA917731-D755-ADDB-0477-338BA05465C3</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>101</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_DIAGNOSTICO" id="C355DC08-4B6A-0101-5E25-439806A7C488">
+<createdBy>Win 10</createdBy>
+<createdTime>2024-05-27 12:15:04 UTC</createdTime>
+<generatorID>E97F2899-159B-B972-BAEC-C448753BE56B</generatorID>
+<ownerDesignName>MDL</ownerDesignName>
+<engineerTo>
+<item key="80E9723A-F7A3-E7F3-51A4-F57D8E1EABF1" value="true"/>
+</engineerTo>
+<referedAttribute>451D0032-696A-D8D6-0C10-AC858CDFF449</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>101</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DATA_HR_REGISTRO" id="77AF05C4-C15C-2F7B-9771-03F05BBE7378">
+<createdBy>Win 10</createdBy>
+<createdTime>2024-05-27 11:37:59 UTC</createdTime>
+<ownerDesignName>MDL</ownerDesignName>
+<engineerTo>
+<item key="80E9723A-F7A3-E7F3-51A4-F57D8E1EABF1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="09C71195-C06F-9019-A01D-9F37BA7618CE" name="T_LEITOR PK">
+<createdBy>Win 10</createdBy>
+<createdTime>2024-05-27 12:03:38 UTC</createdTime>
+<ownerDesignName>MDL</ownerDesignName>
+<engineerTo>
+<item key="80E9723A-F7A3-E7F3-51A4-F57D8E1EABF1" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>86DBB8AE-6827-B69C-A15D-F6A7A778667D</attributeRef>
+<attributeRef>71167F1A-C021-373C-3E5D-354CAF211BA0</attributeRef>
+<attributeRef>FA39B64F-9A16-9A9C-6BD3-1FA62DD808A7</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

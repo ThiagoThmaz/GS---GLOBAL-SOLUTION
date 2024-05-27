@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK_QUALIDADE" directorySegmentName="seg_0" id="A984CA55-22C4-F75F-D09C-B7E6E21DDAA7">
+<createdBy>Win 10</createdBy>
+<createdTime>2024-05-27 12:14:40 UTC</createdTime>
+<ownerDesignName>MDL</ownerDesignName>
+<engineerTo>
+<item key="80E9723A-F7A3-E7F3-51A4-F57D8E1EABF1" value="true"/>
+</engineerTo>
+<sourcePk>4FA72EC7-304E-E1F6-32E8-96A1362A2A8A</sourcePk>
+<arc>B0658801-F995-8B81-26C7-2CD3D591064C</arc>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>A70C6CCB-B3D7-25B6-3661-9604824A2FDD</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>FDA2E2CD-83A8-BB53-CA17-1963B2A5F43D</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

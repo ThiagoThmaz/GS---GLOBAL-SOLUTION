@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK_DIAGNOSTICO" directorySegmentName="seg_0" id="E97F2899-159B-B972-BAEC-C448753BE56B">
+<createdBy>Win 10</createdBy>
+<createdTime>2024-05-27 12:15:04 UTC</createdTime>
+<ownerDesignName>MDL</ownerDesignName>
+<engineerTo>
+<item key="80E9723A-F7A3-E7F3-51A4-F57D8E1EABF1" value="true"/>
+</engineerTo>
+<sourcePk>54EB3A5B-31EF-C204-9F8B-8BC0AD59310C</sourcePk>
+<arc>B0658801-F995-8B81-26C7-2CD3D591064C</arc>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>73E780AA-711C-1F0F-4EE8-E8935B8C4EFA</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>FDA2E2CD-83A8-BB53-CA17-1963B2A5F43D</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
