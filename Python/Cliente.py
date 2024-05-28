@@ -1,39 +1,64 @@
-class Cliente:
-    def __init__(self, nome, cpf, email, senha):
-        self.valida_informacoes_cliente(nome, cpf, email, senha)
-        self.nome = nome
-        self.cpf = cpf
-        self.email = email
-        self.senha = senha
+import hashlib
 
-    def valida_informacoes_cliente(self, nome, cpf, email, senha):
-        if(not nome or not nome.replace(" ", "").isalpha()):
-            raise Exception("Nome invalido")
-        elif(not self.valida_cpf(cpf)):
-            raise Exception("CPF invalido") 
-        elif(not self.valida_email(email)):
-            raise Exception("Email invalido")
-        elif(len(senha) < 8):
-            raise Exception("Senha invalida")
+class Cadastrar:
+    def cadastrar_usuario():
+        print("[-------------------------------]")
+        print("[---- Bem-vindo ao sistema -----]")
+        print("[-------------------------------]")
 
-    def cadastrar_barco(self, barco):
-       self.barcacoes.append(barco)
+        # Solicitar Informações do Usuario.
+        nome = input("Digite seu nome: ")
+        email = input("Digite seu email: ")
+        telefone = input("Digite seu telefone: ")
+        senha = input("Digite sua senha: ")
 
-    def excluir_barco(self, index):
-        return self.barcacoes.pop(index)  
-    
-    def listar_barco(self):
-        print("-------------------------------------------")
-        print("|                                         |")
-        print("|             Lista de Barcos             |")
-        print("|                                         |")
 
-        i = 1
-        for barco in self.automoveis:
-            tamenho = len(barco.marca) + 10
-            print("|        {} {}".format(i, barco.marca), " " * (39 - tamenho), "|")
-            i += 1
-        print("-------------------------------------------")
+        # Salva as informações em um arquivo de texto
+        with open("cadastros.txt", "a") as arquivo:
+            arquivo.write(f"Nome: {nome}, Email: {email}, Telefone: {telefone}, senha: {senha}\n")
 
-        if(len(self.automoveis) == 0):
-            print("\nNenhum barco cadastrado")
+        print("[-------------------------------]")
+        print("[----      CADASTRADO!!    -----]")
+        print("[-------------------------------]")
+
+    def logar_usuario():
+        email = input("Digite seu email: ")
+        senha = input("Digite sua senha: ")
+
+
+        try:
+            with open("cadastros.txt", "r") as arquivo:
+                cadastros = arquivo.readlines()
+                for cadastro in cadastros:
+                    dados = cadastro.strip().split(", ")
+                    if dados[1].split(": ")[1] == email and dados[3].split(": ")[1] == senha:
+                        print("[-------------------------------]")
+                        print("[----  LOGIN BEM SUCEDIDO  -----]")
+                        print("[-------------------------------]")
+                        return True
+                print("[-------------------------------]")
+                print("[-- EMAIL OU SENHA INCORRETOS --]")
+                print("[-------------------------------]")
+                return False
+        except FileNotFoundError:
+            print("[------------------------------------------]")
+            print("[----   Nenhum Cadastro encontrado!!  -----]")
+            print("[------------------------------------------]")
+            return False
+
+def exibir_usuarios():
+    try:
+        with open("cadastros.txt", "r") as arquivo:
+            cadastros = arquivo.readlines()
+            if not cadastros:
+                print("[-------------------------------]")
+                print("[----   Nenhum Cadastro!!  -----]")
+                print("[-------------------------------]")
+            else:
+                print("--- Usuários cadastrados: ")
+                for cadastro in cadastros:
+                    print(f"[---- {cadastro.strip()} ----]")
+    except FileNotFoundError:
+        print("[------------------------------------------]")
+        print("[----   Nenhum Cadastro encontrado!!  -----]")
+        print("[------------------------------------------]")
