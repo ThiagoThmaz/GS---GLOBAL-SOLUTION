@@ -25,9 +25,9 @@ def exibir_barcos():
             with open("barcos.txt", "r") as arquivo:
                 barcos = arquivo.readlines()
                 if not barcos:
-                    print("[-------------------------------]")
-                    print("[----   Nenhum Barco!!   -------]")
-                    print("[-------------------------------]")
+                    print("[-----------------------------]")
+                    print("[----   Nenhum Barco!  -------]")
+                    print("[-----------------------------]")
                 else:
                     print("Barcos cadastrados:")
                     for barco in barcos:
@@ -43,9 +43,9 @@ def excluir_barco():
                 barcos = arquivos.readline()
 
             if not barcos:
-                print("[-------------------------------]")
-                print("[----   Nenhum Barco!!   -------]")
-                print("[-------------------------------]")
+                print("[---------------------------]")
+                print("[----   Nenhum Barco!!  ----]")
+                print("[---------------------------]")
                 return
             
             print("Barcos cadastros: ")

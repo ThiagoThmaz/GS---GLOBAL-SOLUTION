@@ -1,10 +1,22 @@
+import re
+
+#Validação de Telefone
 def validaTelefone(telefone):
     if len(telefone) != 11:
          raise Exception("Telefone Invalido")
 
+#Validação de Senha
 def validarSenha(senha):
      if len(senha) <= 8:
           raise Exception("Senha Invalida")
+
+#Validação de Email    
+def validarEmail(email):
+    # Regex para validar email
+    padrao = r'^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$'
+    if not re.match(padrao, email):
+        raise Exception("Email Invalido")
+     
 def cadastrar_usuario():
         print("[-------------------------------]")
         print("[---- Bem-vindo ao sistema -----]")
@@ -13,6 +25,7 @@ def cadastrar_usuario():
         # Solicitar Informações do Usuario.
         nome = input("Digite seu nome: ")
         email = input("Digite seu email: ")
+        validarEmail(email)
         telefone = input("Digite seu telefone: ")
         validaTelefone(telefone)
         senha = input("Digite sua senha: ")

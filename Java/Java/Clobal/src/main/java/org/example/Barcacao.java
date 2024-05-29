@@ -15,7 +15,6 @@ public class Barcacao implements Leitor {
 
     /**
      * Construtor da classe {@code Barcacao}.
-     *
      * @param modeloBarco o modelo do barco
      * @param anoFabricacao o ano de fabricação do barco
      * @since 1.0
@@ -28,7 +27,6 @@ public class Barcacao implements Leitor {
 
     /**
      * Valida os parâmetros de um barco.
-     *
      * @param modeloBarco o modelo do barco
      * @param anoFabricacao o ano de fabricação do barco
      * @since 1.0
