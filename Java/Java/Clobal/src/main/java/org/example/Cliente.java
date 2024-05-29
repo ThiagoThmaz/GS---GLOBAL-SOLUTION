@@ -11,7 +11,7 @@ import java.util.Scanner;
  * incluindo nome, CPF, e-mail, telefone e data de nascimento.
  * Esta classe estende a classe {@code Barcacao}.
  * @since 1.0
- * @autor Thiago Thomaz
+ * @author Thiago Thomaz
  */
 public class Cliente extends Barcacao {
 

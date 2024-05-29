@@ -4,7 +4,7 @@ package org.example;
  * A classe {@code Diagnostico} representa um diagnóstico com resultado e status.
  * Esta classe implementa a interface {@code Leitor}.
  * @since 1.0
- * @autor Thiago Thomaz
+ * @author Thiago Thomaz
  */
 public class Diagnostico implements Leitor {
 

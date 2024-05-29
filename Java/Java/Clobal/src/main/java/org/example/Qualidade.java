@@ -4,7 +4,7 @@ package org.example;
  * A classe {@code Qualidade} representa um parâmetro de qualidade com valores mínimo e máximo.
  * Esta classe implementa a interface {@code Leitor}.
  * @since 1.0
- * @autho Thiago Thomaz
+ * @author Thiago Thomaz
  */
 public class Qualidade implements Leitor {
 
