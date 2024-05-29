@@ -1,11 +1,15 @@
-class Barco:
-    def cadastrar_barco():
+def validarAno(ano_fabricacao):
+     if (ano_fabricacao) < 1990:
+           raise Exception("Barco muito antigo para utilizar sensor")          
+
+def cadastrar_barco():
         print("[-------------------------------]")
         print("[---- Cadastro de Barcos -------]")
         print("[-------------------------------]")
 
         # Solicita as informações do Barco 
-        ano_fabricacao = input("Digite um ano de Fabricação: ")
+        ano_fabricacao = int(input("Digite um ano de Fabricação: "))
+        validarAno(ano_fabricacao)
         modelo = input("Digite o modelo do Barco: ")
 
          # Salvar as informações em um arquivo de texto
@@ -16,7 +20,7 @@ class Barco:
         print("[----    BARCO CADASTRADO!  ----]")
         print("[-------------------------------]")
 
-    def exibir_barcos():
+def exibir_barcos():
         try:
             with open("barcos.txt", "r") as arquivo:
                 barcos = arquivo.readlines()
@@ -33,7 +37,7 @@ class Barco:
             print("[----   Nenhum barco encontrado!  -----]")
             print("[--------------------------------------]")
     
-    def excluir_barco():
+def excluir_barco():
         try:
             with open("barcos.txt","r") as arquivos:
                 barcos = arquivos.readline()
@@ -55,7 +59,7 @@ class Barco:
                     for barco in barcos:
                         arquivo.write(barco)
                 print("[-------------------------------]")
-                print("[----    BARCO EXCLUÍDO!   ----]")
+                print("[----    BARCO EXCLUÍDO!    ----]")
                 print("[-------------------------------]")
             else:
                 print("Escolha inválida.")

@@ -1,7 +1,11 @@
-import hashlib
+def validaTelefone(telefone):
+    if len(telefone) != 11:
+         raise Exception("Telefone Invalido")
 
-class Cadastrar:
-    def cadastrar_usuario():
+def validarSenha(senha):
+     if len(senha) <= 8:
+          raise Exception("Senha Invalida")
+def cadastrar_usuario():
         print("[-------------------------------]")
         print("[---- Bem-vindo ao sistema -----]")
         print("[-------------------------------]")
@@ -10,8 +14,9 @@ class Cadastrar:
         nome = input("Digite seu nome: ")
         email = input("Digite seu email: ")
         telefone = input("Digite seu telefone: ")
+        validaTelefone(telefone)
         senha = input("Digite sua senha: ")
-
+        validarSenha(senha)
 
         # Salva as informações em um arquivo de texto
         with open("cadastros.txt", "a") as arquivo:
@@ -21,7 +26,7 @@ class Cadastrar:
         print("[----      CADASTRADO!!    -----]")
         print("[-------------------------------]")
 
-    def logar_usuario():
+def logar_usuario():
         email = input("Digite seu email: ")
         senha = input("Digite sua senha: ")
 

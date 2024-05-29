@@ -1,5 +1,5 @@
-from Cliente import Cadastrar, exibir_usuarios
-from Barco import Barco 
+import Cliente as Cliente
+import Barco as Barco
 
 def menu():
     while True:
@@ -11,11 +11,14 @@ def menu():
         opcao = input("Escolha uma opção: ")
 
         if opcao == "1":
-            Cadastrar.cadastrar_usuario()
+            try:
+                Cliente.cadastrar_usuario()
+            except Exception as msgErro:
+                print(msgErro.args[0])      
         elif opcao == "2":
-            exibir_usuarios()
+            Cliente.exibir_usuarios()
         elif opcao == "3":
-            if Cadastrar.logar_usuario():
+            if Cliente.logar_usuario():
                 menu_login()
             else:
                 print("Falha no login. Tente novamnete.")
@@ -37,7 +40,10 @@ def menu_login():
         opcao = input("Escolha uma opção: ")
         
         if opcao == "1":
-            Barco.cadastrar_barco()
+            try:
+              Barco.cadastrar_barco()
+            except Exception as msgErro:
+              print(msgErro.args[0]) 
         elif opcao == "2":
             Barco.exibir_barcos()
         elif opcao == "3":
