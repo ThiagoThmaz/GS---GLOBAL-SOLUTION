@@ -1,0 +1,1958 @@
+{
+  "intents": [
+    {
+      "intent": "compartilhar_diagnostico",
+      "examples": [
+        {
+          "text": "Como faço para compartilhar o diagnóstico do sensor?"
+        },
+        {
+          "text": "Meu sensor detectou muitas impurezas na água"
+        },
+        {
+          "text": "Meu sensor viu algo"
+        },
+        {
+          "text": "Preciso compartilhar a marinha do que o sensor detectou"
+        },
+        {
+          "text": "Preciso comunicar alguém de uam área muito poluída!"
+        },
+        {
+          "text": "Preciso que a marinha saiba do que eu vi"
+        },
+        {
+          "text": "Preciso que voçês saibam de uma área com uma água muita suja"
+        },
+        {
+          "text": "Quero compartilhar o diagnóstico do sensor"
+        },
+        {
+          "text": "Quero comunicar a marinha de algo que o sensor viu"
+        },
+        {
+          "text": "Quero denunciar uma área que está bem poluída"
+        },
+        {
+          "text": "Quero fazer uma denúncia"
+        },
+        {
+          "text": "Vi uma área bem poluída"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "compra_sensor",
+      "examples": [
+        {
+          "text": "Como faço para comprar meu sensor?"
+        },
+        {
+          "text": "Consigo realizar a compra do sensor por aqui?"
+        },
+        {
+          "text": "Meu barco está precisando de um sensor"
+        },
+        {
+          "text": "Preciso de um sensor"
+        },
+        {
+          "text": "Qual o preço do sensor?"
+        },
+        {
+          "text": "Qual o valor do sensor?"
+        },
+        {
+          "text": "Quanto custa o produto de vocês?"
+        },
+        {
+          "text": "Quero comprar o sensor"
+        },
+        {
+          "text": "Quero contribuir com a fiscalização da água"
+        },
+        {
+          "text": "quero realizar a compra do sensor de vocês"
+        },
+        {
+          "text": "Quero um sensor"
+        },
+        {
+          "text": "Quero um sensor para o meu barco"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "instalar_sensor",
+      "examples": [
+        {
+          "text": "Como faço para colocar o sensor no meu barco?"
+        },
+        {
+          "text": "Instala o sensor para mim"
+        },
+        {
+          "text": "Me ajuda a instalar o meu sensor"
+        },
+        {
+          "text": "Não consigo instalar meu sensor"
+        },
+        {
+          "text": "Preciso de alguém para instalar meu sensor"
+        },
+        {
+          "text": "Preciso de alguém para me ajudar a instalar o sensor"
+        },
+        {
+          "text": "Preciso de um técnico para instalar meu sensor"
+        },
+        {
+          "text": "Qual o valor da instalação do produto?"
+        },
+        {
+          "text": "Quero solicitar a instalação do sensor"
+        },
+        {
+          "text": "Vocês instalam o sensor?"
+        },
+        {
+          "text": "Vocês podem me ajudar a instalar o sensor no meu barco"
+        },
+        {
+          "text": "Vocês realizam a instalação dos sensores?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "quero_audio",
+      "examples": [
+        {
+          "text": "Consegue me mandar áudio"
+        },
+        {
+          "text": "Gostaria de ser atendido por áudio"
+        },
+        {
+          "text": "Pode me responder por áudio"
+        },
+        {
+          "text": "Posso ser atendida por áudio?"
+        },
+        {
+          "text": "Posso ser atendido por áudio?"
+        },
+        {
+          "text": "Queria falar por áudio"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "quero_texto",
+      "examples": [
+        {
+          "text": "Gostaria de ser atendido por texto"
+        },
+        {
+          "text": "Me manda por texto"
+        },
+        {
+          "text": "Pode digitar?"
+        },
+        {
+          "text": "Pode escrever pra mim?"
+        },
+        {
+          "text": "Pode me responder por texto?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "saber_mais",
+      "examples": [
+        {
+          "text": "Como este sensor funciona?"
+        },
+        {
+          "text": "Essa empresa eu não conheço"
+        },
+        {
+          "text": "Me dê mais informarções sobre a empresa"
+        },
+        {
+          "text": "Me dê mais informarções sobre o sensor"
+        },
+        {
+          "text": "O produto é bom?"
+        },
+        {
+          "text": "O produto é realmente confiável?"
+        },
+        {
+          "text": "Qual a funcionalidade deste sensor?"
+        },
+        {
+          "text": "Quem é a Squad Code?"
+        },
+        {
+          "text": "Quem é a Squad Code no mercado?"
+        },
+        {
+          "text": "Quem produziu este sensor?"
+        },
+        {
+          "text": "Quero saber mais sobre o sensor"
+        },
+        {
+          "text": "Quero saber mais sobre vocês"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "solicitar_diagnostico",
+      "examples": [
+        {
+          "text": "Eu consigo ver o diagnóstico do sensor por aqui?"
+        },
+        {
+          "text": "Me mostra tudo o que o sensor identificou"
+        },
+        {
+          "text": "Meu sensor viu algo. Comoposso fazer para ter acesso?"
+        },
+        {
+          "text": "O que aconteceu ontem?"
+        },
+        {
+          "text": "O que o sensor viu?"
+        },
+        {
+          "text": "O sensor viu algo hoje?"
+        },
+        {
+          "text": "Preciso saber o que o sensor viu"
+        },
+        {
+          "text": "Quero receber o diagnóstico do sensor"
+        },
+        {
+          "text": "Quero receber o relatório de tudo o que o sensor viu"
+        },
+        {
+          "text": "Quero saber o que o sensor viu"
+        },
+        {
+          "text": "Quero ter acesso ao diagnóstico do sensor"
+        },
+        {
+          "text": "Vocês disponibilizam o diagnóstico do sensor?"
+        }
+      ],
+      "description": ""
+    }
+  ],
+  "entities": [
+    {
+      "entity": "dias_semana",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Domingo",
+          "synonyms": [
+            "dom"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Quarta-feira",
+          "synonyms": [
+            "qua",
+            "quarta"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Quinta-feira",
+          "synonyms": [
+            "qui",
+            "quinta"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Sábado",
+          "synonyms": [
+            "sab"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Segunda-feira",
+          "synonyms": [
+            "seg",
+            "segunda"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Sexta-feira",
+          "synonyms": [
+            "sex",
+            "sexta"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Terça-feira",
+          "synonyms": [
+            "ter",
+            "terça"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "horas",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "08:00",
+          "synonyms": [
+            "8",
+            "oito da manhã"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "09:00",
+          "synonyms": [
+            "9",
+            "nove da manhã"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "10:00",
+          "synonyms": [
+            "10",
+            "dez da manhã"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "11:00",
+          "synonyms": [
+            "11",
+            "onze da manhã"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "12:00",
+          "synonyms": [
+            "12",
+            "meio dia"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "13:00",
+          "synonyms": [
+            "13",
+            "uma da tarde"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "14:00",
+          "synonyms": [
+            "14",
+            "duas da tarde"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "15:00",
+          "synonyms": [
+            "15",
+            "três da tarde"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "16:00",
+          "synonyms": [
+            "16",
+            "quatro da tarde"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "17:00",
+          "synonyms": [
+            "17",
+            "cinco da tarde"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "sim-nao",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Não",
+          "synonyms": [
+            "n",
+            "nn",
+            "no"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Sim",
+          "synonyms": [
+            "claro",
+            "por favor",
+            "s",
+            "si",
+            "ss"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "start",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "/start",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "tipo_diagnostico",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Animais em extinção",
+          "synonyms": [
+            "Animal ",
+            "extinção"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Derramamento",
+          "synonyms": [
+            "Vazamento"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Poluição",
+          "synonyms": [
+            "impurezas",
+            "poluída",
+            "sujeira"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    }
+  ],
+  "metadata": {
+    "api_version": {
+      "major_version": "v2",
+      "minor_version": "2018-11-08"
+    }
+  },
+  "dialog_nodes": [
+    {
+      "type": "standard",
+      "title": "Bem-vindo",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Olá! Bem vindo ao chat com a Squad Code. Como posso te ajudar?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "welcome",
+      "dialog_node": "Bem-vindo"
+    },
+    {
+      "type": "standard",
+      "title": "Em outros casos",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Eu não entendi. Você pode tentar reformular a frase."
+              },
+              {
+                "text": "Você pode reformular sua afirmação? Eu não estou entendendo."
+              },
+              {
+                "text": "Eu não entendi o sentido."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "anything_else",
+      "dialog_node": "Em outros casos",
+      "previous_sibling": "node_1_1717073690270",
+      "disambiguation_opt_out": true
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Ok... E qual horário seria melhor para você?"
+              },
+              {
+                "text": "(Horários disponíveis: 09:00, 10:00, 11:00, 12:00, 13:00, 14:00, 15:00, 16:00, 17:00)"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_4_1716976765196",
+      "conditions": "@dias_semana:Segunda-feira",
+      "dialog_node": "node_10_1716977715925"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Combinado! O horári o foi marcado para Terça-feira ás 09:00 horas."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1717021286941",
+      "conditions": "@horas:(09:00)",
+      "dialog_node": "node_10_1717021286942"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Combinado! O horári o foi marcado para Terça-feira ás 10:00 horas."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1717021286941",
+      "conditions": "@horas:(10:00)",
+      "dialog_node": "node_11_1717021286942",
+      "previous_sibling": "node_10_1717021286942"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Ah claro! O nosso incrível sensor que detecta impureza na água está saindo por apenas 70 reais!!!"
+              },
+              {
+                "text": "O(a) senhor(a) gostaria de comprar?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "conditions": "#compra_sensor",
+      "dialog_node": "node_1_1716975231304",
+      "previous_sibling": "node_9_1717027540353"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Que pena :("
+              },
+              {
+                "text": "Seu atendimento será finalizado."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1716975231304",
+      "conditions": "@sim-nao:Não",
+      "dialog_node": "node_1_1716975503352"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Ok, Muito obrigado!"
+              },
+              {
+                "text": "Seu atendimento será finalizado."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_8_1716976449719",
+      "conditions": "@sim-nao:Não",
+      "dialog_node": "node_1_1716976676411"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Combinado! O horári o foi marcado para Segunda-feira ás 10:00 horas."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1716977715925",
+      "conditions": "@horas:(10:00)",
+      "dialog_node": "node_1_1717020952215",
+      "previous_sibling": "node_9_1717020736471"
+    },
+    {
+      "type": "standard",
+      "title": "Limpa Variáveis de contexto",
+      "output": {
+        "deleted": "<? context.clear() ?>"
+      },
+      "digress_in": "does_not_return",
+      "dialog_node": "node_1_1717073690270",
+      "previous_sibling": "node_7_1717025277008"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Combinado! O horári o foi marcado para Terça-feira ás 11:00 horas."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1717021286941",
+      "conditions": "@horas:(11:00)",
+      "dialog_node": "node_12_1717021286942",
+      "previous_sibling": "node_11_1717021286942"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Combinado! O horári o foi marcado para Terça-feira ás 12:00 horas."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1717021286941",
+      "conditions": "@horas:(12:00)",
+      "dialog_node": "node_13_1717021286942",
+      "previous_sibling": "node_12_1717021286942"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Combinado! O horári o foi marcado para Terça-feira ás 13:00 horas."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1717021286941",
+      "conditions": "@horas:(13:00)",
+      "dialog_node": "node_14_1717021286942",
+      "previous_sibling": "node_13_1717021286942"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Combinado! O horári o foi marcado para Terça-feira ás 14:00 horas."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1717021286941",
+      "conditions": "@horas:(14:00)",
+      "dialog_node": "node_15_1717021286942",
+      "previous_sibling": "node_14_1717021286942"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Combinado! O horári o foi marcado para Terça-feira ás 15:00 horas."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1717021286941",
+      "conditions": "@horas:(15:00)",
+      "dialog_node": "node_16_1717021286942",
+      "previous_sibling": "node_15_1717021286942"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Combinado! O horári o foi marcado para Terça-feira ás 16:00 horas."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1717021286941",
+      "conditions": "@horas:(16:00)",
+      "dialog_node": "node_17_1717021286942",
+      "previous_sibling": "node_16_1717021286942"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Combinado! O horári o foi marcado para Terça-feira ás 17:00 horas."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1717021286941",
+      "conditions": "@horas:(17:00)",
+      "dialog_node": "node_18_1717021286942",
+      "previous_sibling": "node_17_1717021286942"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Ok... E qual horário seria melhor para você?"
+              },
+              {
+                "text": "(Horários disponíveis: 09:00, 10:00, 11:00, 12:00, 13:00, 14:00, 15:00, 16:00, 17:00)"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_4_1716976765196",
+      "conditions": "@dias_semana:Quarta-feira",
+      "dialog_node": "node_19_1717021374405",
+      "previous_sibling": "node_9_1717021286941"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Combinado! O horári o foi marcado para Quarta-feira ás 09:00 horas."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_19_1717021374405",
+      "conditions": "@horas:(09:00)",
+      "dialog_node": "node_20_1717021374406"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Combinado! O horári o foi marcado para Quarta-feira ás 10:00 horas."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_19_1717021374405",
+      "conditions": "@horas:(10:00)",
+      "dialog_node": "node_21_1717021374406",
+      "previous_sibling": "node_20_1717021374406"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Combinado! O horári o foi marcado para Segunda-feira ás 11:00 horas."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1716977715925",
+      "conditions": "@horas:(11:00)",
+      "dialog_node": "node_2_1717020954902",
+      "previous_sibling": "node_1_1717020952215"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Claro! de qual dia o(a) senhor(a) precisa?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#solicitar_diagnostico",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_2_1717022300402",
+      "previous_sibling": "node_8_1716976449719"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Combinado! O horári o foi marcado para Quarta-feira ás 11:00 horas."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_19_1717021374405",
+      "conditions": "@horas:(11:00)",
+      "dialog_node": "node_22_1717021374406",
+      "previous_sibling": "node_21_1717021374406"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Combinado! O horári o foi marcado para Quarta-feira ás 12:00 horas."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_19_1717021374405",
+      "conditions": "@horas:(12:00)",
+      "dialog_node": "node_23_1717021374406",
+      "previous_sibling": "node_22_1717021374406"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Combinado! O horári o foi marcado para Quarta-feira ás 13:00 horas."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_19_1717021374405",
+      "conditions": "@horas:(13:00)",
+      "dialog_node": "node_24_1717021374406",
+      "previous_sibling": "node_23_1717021374406"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Combinado! O horári o foi marcado para Quarta-feira ás 14:00 horas."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_19_1717021374405",
+      "conditions": "@horas:(14:00)",
+      "dialog_node": "node_25_1717021374406",
+      "previous_sibling": "node_24_1717021374406"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Combinado! O horári o foi marcado para Quarta-feira ás 15:00 horas."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_19_1717021374405",
+      "conditions": "@horas:(15:00)",
+      "dialog_node": "node_26_1717021374406",
+      "previous_sibling": "node_25_1717021374406"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Combinado! O horári o foi marcado para Quarta-feira ás 16:00 horas."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_19_1717021374405",
+      "conditions": "@horas:(16:00)",
+      "dialog_node": "node_27_1717021374406",
+      "previous_sibling": "node_26_1717021374406"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Combinado! O horári o foi marcado para Quarta-feira ás 17:00 horas."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_19_1717021374405",
+      "conditions": "@horas:(17:00)",
+      "dialog_node": "node_28_1717021374406",
+      "previous_sibling": "node_27_1717021374406"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Ok... E qual horário seria melhor para você?"
+              },
+              {
+                "text": "(Horários disponíveis: 09:00, 10:00, 11:00, 12:00, 13:00, 14:00, 15:00, 16:00, 17:00)"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_4_1716976765196",
+      "conditions": "@dias_semana:Quinta-feira",
+      "dialog_node": "node_29_1717021490148",
+      "previous_sibling": "node_19_1717021374405"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Combinado! O horári o foi marcado para Quinta-feira ás 09:00 horas."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_29_1717021490148",
+      "conditions": "@horas:(09:00)",
+      "dialog_node": "node_30_1717021490149"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Combinado! O horári o foi marcado para Quinta-feira ás 10:00 horas."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_29_1717021490148",
+      "conditions": "@horas:(10:00)",
+      "dialog_node": "node_31_1717021490149",
+      "previous_sibling": "node_30_1717021490149"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Combinado! O horári o foi marcado para Segunda-feira ás 12:00 horas."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1716977715925",
+      "conditions": "@horas:(12:00)",
+      "dialog_node": "node_3_1717020958294",
+      "previous_sibling": "node_2_1717020954902"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Seu diagnóstico foi compartilhado."
+              },
+              {
+                "text": "O Brasil agradece sua linda ação :)"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_7_1717025442820",
+      "conditions": "@tipo_diagnostico",
+      "dialog_node": "node_3_1717451382219"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Combinado! O horári o foi marcado para Quinta-feira ás 11:00 horas."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_29_1717021490148",
+      "conditions": "@horas:(11:00)",
+      "dialog_node": "node_32_1717021490149",
+      "previous_sibling": "node_31_1717021490149"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Combinado! O horári o foi marcado para Quinta-feira ás 12:00 horas."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_29_1717021490148",
+      "conditions": "@horas:(12:00)",
+      "dialog_node": "node_33_1717021490149",
+      "previous_sibling": "node_32_1717021490149"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Combinado! O horári o foi marcado para Quinta-feira ás 13:00 horas."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_29_1717021490148",
+      "conditions": "@horas:(13:00)",
+      "dialog_node": "node_34_1717021490149",
+      "previous_sibling": "node_33_1717021490149"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Combinado! O horári o foi marcado para Quinta-feira ás 14:00 horas."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_29_1717021490148",
+      "conditions": "@horas:(14:00)",
+      "dialog_node": "node_35_1717021490149",
+      "previous_sibling": "node_34_1717021490149"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Combinado! O horári o foi marcado para Quinta-feira ás 15:00 horas."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_29_1717021490148",
+      "conditions": "@horas:(15:00)",
+      "dialog_node": "node_36_1717021490149",
+      "previous_sibling": "node_35_1717021490149"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Combinado! O horári o foi marcado para Quinta-feira ás 16:00 horas."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_29_1717021490148",
+      "conditions": "@horas:(16:00)",
+      "dialog_node": "node_37_1717021490149",
+      "previous_sibling": "node_36_1717021490149"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Combinado! O horári o foi marcado para Quinta-feira ás 17:00 horas."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_29_1717021490148",
+      "conditions": "@horas:(17:00)",
+      "dialog_node": "node_38_1717021490149",
+      "previous_sibling": "node_37_1717021490149"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Ok... E qual horário seria melhor para você?"
+              },
+              {
+                "text": "(Horários disponíveis: 09:00, 10:00, 11:00, 12:00, 13:00, 14:00, 15:00, 16:00, 17:00)"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_4_1716976765196",
+      "conditions": "@dias_semana:Sexta-feira",
+      "dialog_node": "node_39_1717021568804",
+      "previous_sibling": "node_29_1717021490148"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Combinado! O horári o foi marcado para Sexta-feira ás 09:00 horas."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_39_1717021568804",
+      "conditions": "@horas:(09:00)",
+      "dialog_node": "node_40_1717021568805"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Combinado! O horári o foi marcado para Sexta-feira ás 10:00 horas."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_39_1717021568804",
+      "conditions": "@horas:(10:00)",
+      "dialog_node": "node_41_1717021568805",
+      "previous_sibling": "node_40_1717021568805"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Ok! Vamos iniciar o agendamento..."
+              },
+              {
+                "text": "Qual dia seria melhor para você? (funcionamos de Segunda à Sexta)"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_8_1716976449719",
+      "conditions": "@sim-nao:Sim",
+      "dialog_node": "node_4_1716976765196",
+      "previous_sibling": "node_1_1716976676411"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Combinado! O horári o foi marcado para Segunda-feira ás 13:00 horas."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1716977715925",
+      "conditions": "@horas:(13:00)",
+      "dialog_node": "node_4_1717020960270",
+      "previous_sibling": "node_3_1717020958294"
+    },
+    {
+      "type": "standard",
+      "title": "Bem-vindo (telegram)",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Olá! Bem vindo ao chat com a Squad Code. Como posso te ajudar?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "@start",
+      "dialog_node": "node_4_1717030004185",
+      "previous_sibling": "Bem-vindo"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Combinado! O horári o foi marcado para Sexta-feira ás 11:00 horas."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_39_1717021568804",
+      "conditions": "@horas:(11:00)",
+      "dialog_node": "node_42_1717021568805",
+      "previous_sibling": "node_41_1717021568805"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Combinado! O horári o foi marcado para Sexta-feira ás 12:00 horas."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_39_1717021568804",
+      "conditions": "@horas:(12:00)",
+      "dialog_node": "node_43_1717021568805",
+      "previous_sibling": "node_42_1717021568805"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Combinado! O horári o foi marcado para Sexta-feira ás 13:00 horas."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_39_1717021568804",
+      "conditions": "@horas:(13:00)",
+      "dialog_node": "node_44_1717021568805",
+      "previous_sibling": "node_43_1717021568805"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Combinado! O horári o foi marcado para Sexta-feira ás 14:00 horas."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_39_1717021568804",
+      "conditions": "@horas:(14:00)",
+      "dialog_node": "node_45_1717021568805",
+      "previous_sibling": "node_44_1717021568805"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Combinado! O horári o foi marcado para Sexta-feira ás 15:00 horas."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_39_1717021568804",
+      "conditions": "@horas:(15:00)",
+      "dialog_node": "node_46_1717021568805",
+      "previous_sibling": "node_45_1717021568805"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Combinado! O horári o foi marcado para Sexta-feira ás 16:00 horas."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_39_1717021568804",
+      "conditions": "@horas:(16:00)",
+      "dialog_node": "node_47_1717021568805",
+      "previous_sibling": "node_46_1717021568805"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Combinado! O horári o foi marcado para Sexta-feira ás 17:00 horas."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_39_1717021568804",
+      "conditions": "@horas:(17:00)",
+      "dialog_node": "node_48_1717021568805",
+      "previous_sibling": "node_47_1717021568805"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Combinado! O horári o foi marcado para Segunda-feira ás 14:00 horas."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1716977715925",
+      "conditions": "@horas:(14:00)",
+      "dialog_node": "node_5_1717020962294",
+      "previous_sibling": "node_4_1717020960270"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_8_1717022358302",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_3_1717451382219"
+      },
+      "conditions": "@sim-nao:Sim",
+      "dialog_node": "node_5_1717024405923",
+      "previous_sibling": "node_6_1717024336225"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Tudo bem. A partir de agora vou te responder por áudio."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_1_1717073690270"
+      },
+      "conditions": "#quero_audio",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_5_1717073536527",
+      "previous_sibling": "node_4_1717030004185"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Que bommm! Aqui está o site onde você poderá prosseguir com  a sua compra: "
+              },
+              {
+                "text": "Outra coisa... O(a) senhor(a) vai precisar que um de nossos técnicos instale o sensor no seu barco?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_1_1716975231304",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "node_4_1716976765196"
+      },
+      "conditions": "@sim-nao:Sim",
+      "dialog_node": "node_6_1716975629423",
+      "previous_sibling": "node_1_1716975503352"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Combinado! O horári o foi marcado para Segunda-feira ás 15:00 horas."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1716977715925",
+      "conditions": "@horas:(15:00)",
+      "dialog_node": "node_6_1717020964583",
+      "previous_sibling": "node_5_1717020962294"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Ok! Seu atendimento será finalizado."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1717022358302",
+      "conditions": "@sim-nao:Não",
+      "dialog_node": "node_6_1717024336225"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Combinado! O horári o foi marcado para Segunda-feira ás 16:00 horas."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1716977715925",
+      "conditions": "@horas:(16:00)",
+      "dialog_node": "node_7_1717021247933",
+      "previous_sibling": "node_6_1717020964583"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Claro! Deseja compartilhar diagnóstico de qual dia?"
+              },
+              {
+                "text": "(Responda com dias da semana)"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "conditions": "#compartilhar_diagnostico",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_7_1717025277008",
+      "previous_sibling": "node_2_1717022300402"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "O que o(a) senhor(a) gostaria de denunciar?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_7_1717025277008",
+      "conditions": "@dias_semana",
+      "dialog_node": "node_7_1717025442820"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Claro! O(a) senhor(a) pode agendar um horário aqui com técnico."
+              },
+              {
+                "text": "O valor da instalação é de 30 reais."
+              },
+              {
+                "text": "Gostaria de realizar o agendamento?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "conditions": "#instalar_sensor",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_8_1716976449719",
+      "previous_sibling": "node_1_1716975231304"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Combinado! O horári o foi marcado para Segunda-feira ás 17:00 horas."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1716977715925",
+      "conditions": "@horas:(17:00)",
+      "dialog_node": "node_8_1717021252765",
+      "previous_sibling": "node_7_1717021247933"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Neste dia as 10:38 o sensor dectou uma grande parte de impurezas na aguá na seguinte cooredenada: 23°33'50.8\"S 46°39'08.7\"W\nDeseja compartilhar esse diagnóstico com a Marinha do Brasil?"
+              },
+              {
+                "text": "Neste dia as 08:18 e as 14:36 o sensor dectou uma grande parte de impurezas na aguá na seguinte coordenada: 23°33'50.8\"S 46°39'08.7\"W\nDeseja compartilhar esse diagnóstico com a Marinha do Brasil?"
+              },
+              {
+                "text": "Neste dia as 03:49, as 05:06 e as 16:32 o sensor dectou uma grande parte de impurezas na aguá na seguinte coordenada: 23°33'50.8\"S 46°39'08.7\"W\nDeseja compartilhar esse diagnóstico com a Marinha do Brasil?"
+              },
+              {
+                "text": "Neste dia as 11:28 e as 20:04 o sensor dectou uma grande parte de impurezas na aguá na seguinte coordenada: 23°33'50.8\"S 46°39'08.7\"W\nDeseja compartilhar esse diagnóstico com a Marinha do Brasil?"
+              },
+              {
+                "text": "Neste dia as 07:08, as 09:01, as 18:41 e as 23:44 o sensor dectou uma grande parte de impurezas na aguá na seguinte coordenada: 23°33'50.8\"S 46°39'08.7\"W\nDeseja compartilhar esse diagnóstico com a Marinha do Brasil?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "node_2_1717022300402",
+      "conditions": "@dias_semana",
+      "dialog_node": "node_8_1717022358302"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Tudo bem. A partir de agora vou te responder por texto."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_1_1717073690270"
+      },
+      "conditions": "#quero_texto",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_8_1717074250723",
+      "previous_sibling": "node_5_1717073536527"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Combinado! O horári o foi marcado para Segunda-feira ás 09:00 horas."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1716977715925",
+      "conditions": "@horas:(09:00)",
+      "dialog_node": "node_9_1717020736471"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Ok... E qual horário seria melhor para você?"
+              },
+              {
+                "text": "(Horários disponíveis: 09:00, 10:00, 11:00, 12:00, 13:00, 14:00, 15:00, 16:00, 17:00)"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_4_1716976765196",
+      "conditions": "@dias_semana:Terça-feira",
+      "dialog_node": "node_9_1717021286941",
+      "previous_sibling": "node_10_1716977715925"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Aqui vai uma breve descrição sobre nós: Somos uma empresa de tecnologia inovadora dedicada a impulsionar a transformação digital para empresas e indivíduos. Nossa equipe apaixonada e talentosa desenvolve soluções personalizadas, desde aplicativos móveis e plataformas web até sistemas de inteligência artificial, capacitando nossos clientes a alcançarem seus objetivos de negócios de forma eficiente e escalável. Priorizamos a excelência técnica, a criatividade e a colaboração para oferecer resultados excepcionais que moldam o futuro digital."
+              },
+              {
+                "text": "E o nosso sensor aquático de análise de poluição é um dispositivo avançado projetado para monitorar a qualidade da água em tempo real em torno de embarcações. Equipado com uma variedade de sensores de última geração, ele é capaz de detectar e analisar diferentes tipos de poluentes, como óleos, metais pesados e substâncias químicas nocivas, resíduos deixados por humanos e etc. Além disso, o sensor pode medir parâmetros essenciais da água, como pH, salinidade e temperatura, fornecendo uma visão abrangente da saúde do ecossistema marinho. Com sua capacidade de transmissão de dados em tempo real, o sensor oferece uma ferramenta crucial para monitoramento ambiental e tomada de decisões informadas para proteger os ecossistemas aquáticos."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "conditions": "#saber_mais",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_9_1717027540353",
+      "previous_sibling": "node_8_1717074250723"
+    }
+  ],
+  "counterexamples": [],
+  "system_settings": {
+    "disambiguation": {
+      "prompt": "Você quis dizer:",
+      "enabled": true,
+      "randomize": true,
+      "max_suggestions": 5,
+      "suggestion_text_policy": "title",
+      "none_of_the_above_prompt": "Nenhuma das anteriores",
+      "use_connect_to_support_prompt": "Connect to support",
+      "single_answer_clarification_prompt": "Something else"
+    },
+    "human_agent_assist": {
+      "prompt": "Você quis dizer:"
+    }
+  },
+  "learning_opt_out": false,
+  "language": "pt-br",
+  "description": "",
+  "name": "Squad Code-dialog"
+}

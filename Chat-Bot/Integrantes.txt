@@ -1,0 +1,33 @@
+Guilherme Menezes Grizão - RM: 557958 - 1TDSPO
+Richard Lopes da Silva - RM: 554748 - 1TDSPI
+Thiago Thomaz Sales Conceição - RM: 557992 - 1TDSPJ
+
+
+
+*Credenciais*
+Telegram:
+Bot-name - SquadCode_GS_bot
+Token - 6807614456:AAFJCk0OEDbCesNmxPrzTz1cs3m_BTfHT2E
+
+Cloudant:
+Host - https://dec10487-6bb5-4972-877e-23d72153756d-bluemix.cloudant.com
+Username - apikey-v2-11j4jr80egipefh8hrr70lkfech22avjx2jo7gy1j1qn
+Password - 244bb7c5dfa2b4c187569b75c05b9cce
+Database - node_red_v1
+
+STT:
+API Key - iv9q7DkxmK-G9pTc0efxofyDOJSWKzTyi662l2NV4_bx
+Service Endpoint - https://api.au-syd.speech-to-text.watson.cloud.ibm.com/instances/7466c3bf-65cd-45c2-be58-3268d291afd8
+
+TTS:
+API Key - 0q5Ix-kplU06elWX16piONCxc54rCC2UNgM4ycDNR_M-
+Service Endpoint - https://api.au-syd.text-to-speech.watson.cloud.ibm.com/instances/f9b18bb0-4544-4d69-a86a-9e97a97ed06b
+
+Assistant:
+API Key - 6_wgbKxnUS9eG0EW1zx83WA5uxUlLu7OyfAS43qYQeTJ
+Service Endpoint - https://api.au-syd.assistant.watson.cloud.ibm.com/instances/e013af81-03d1-4d11-9def-01fc70cd41b4
+Assistant ID - eda1e7b3-153c-4dcb-8346-5a10063d5576
+
+
+
+*Link do Vídeo* - 
