@@ -37,35 +37,3 @@ def exibir_barcos():
             print("[----   Nenhum barco encontrado!  -----]")
             print("[--------------------------------------]")
     
-def excluir_barco():
-    try:
-        with open("barcos.txt","r") as arquivos:
-            barcos = arquivos.readline()
-
-        if not barcos:
-            print("[---------------------------]")
-            print("[----   Nenhum Barco!!  ----]")
-            print("[---------------------------]")
-            return
-            
-        print("Barcos cadastros: ")
-        for i, barco in enumerate(barco):
-                print(f"{i + 1}. {barco.strip()}")
-
-        escolha = int(input("Digite o número do barco que deseja excluir: "))
-        if 1 <= escolha <= len(barcos):
-            del barcos[escolha - 1]
-            with open("barcos.txt", "w") as arquivo:
-                for barco in barcos:
-                        arquivo.write(barco)
-            print("[-------------------------------]")
-            print("[----    BARCO EXCLUÍDO!    ----]")
-            print("[-------------------------------]")
-        else:
-                print("Escolha inválida.")
-    except FileNotFoundError:
-            print("[--------------------------------------]")
-            print("[----   Nenhum barco encontrado!  -----]")
-            print("[--------------------------------------]")
-    except ValueError:
-            print("Entrada inválida. Por favor, insira um número válido.")

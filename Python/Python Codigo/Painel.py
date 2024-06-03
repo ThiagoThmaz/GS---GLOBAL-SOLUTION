@@ -35,8 +35,7 @@ def menu_login():
         print("\nMenu Logado:")
         print("1. Cadastrar barco")
         print("2. Exibir barcos cadastrados")
-        print("3. Excluir barco")
-        print("4. Sair")
+        print("3. Sair")
         opcao = input("Escolha uma opção: ")
         
         if opcao == "1":
@@ -47,8 +46,6 @@ def menu_login():
         elif opcao == "2":
             Barco.exibir_barcos()
         elif opcao == "3":
-            Barco.excluir_barco()
-        elif opcao == "4":
             print("Saindo da conta. Até mais!")
             break
         else:
