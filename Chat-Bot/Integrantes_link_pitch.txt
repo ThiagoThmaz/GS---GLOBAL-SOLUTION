@@ -28,6 +28,5 @@ API Key - 6_wgbKxnUS9eG0EW1zx83WA5uxUlLu7OyfAS43qYQeTJ
 Service Endpoint - https://api.au-syd.assistant.watson.cloud.ibm.com/instances/e013af81-03d1-4d11-9def-01fc70cd41b4
 Assistant ID - eda1e7b3-153c-4dcb-8346-5a10063d5576
 
-
-
-*Link do Vídeo* - 
+*Link do Vídeo* -
+https://youtu.be/Vb5DicRWpzA 
