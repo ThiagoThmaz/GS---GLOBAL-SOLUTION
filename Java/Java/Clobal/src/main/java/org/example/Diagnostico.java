@@ -3,8 +3,9 @@ package org.example;
 /**
  * A classe {@code Diagnostico} representa um diagnóstico com resultado e status.
  * Esta classe implementa a interface {@code Leitor}.
- * @since 1.0
+ *
  * @author Thiago Thomaz
+ * @since 1.0
  */
 public class Diagnostico implements Leitor {
 
@@ -13,8 +14,9 @@ public class Diagnostico implements Leitor {
 
     /**
      * Construtor da classe {@code Diagnostico}.
+     *
      * @param resultado o resultado do diagnóstico
-     * @param status o status do diagnóstico
+     * @param status    o status do diagnóstico
      * @since 1.0
      */
     public Diagnostico(String resultado, String status) {
@@ -24,6 +26,7 @@ public class Diagnostico implements Leitor {
 
     /**
      * Retorna o resultado do diagnóstico.
+     *
      * @return o resultado do diagnóstico
      * @since 1.0
      */
@@ -33,6 +36,7 @@ public class Diagnostico implements Leitor {
 
     /**
      * Retorna o status do diagnóstico.
+     *
      * @return o status do diagnóstico
      * @since 1.0
      */
@@ -42,6 +46,7 @@ public class Diagnostico implements Leitor {
 
     /**
      * Método da interface {@code Leitor} que deve ser implementado.
+     *
      * @since 1.0
      */
     @Override

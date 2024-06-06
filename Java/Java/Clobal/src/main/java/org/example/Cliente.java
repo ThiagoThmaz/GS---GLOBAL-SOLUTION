@@ -10,8 +10,9 @@ import java.util.Scanner;
  * A classe {@code Cliente} representa um cliente com informações pessoais,
  * incluindo nome, CPF, e-mail, telefone e data de nascimento.
  * Esta classe estende a classe {@code Barcacao}.
- * @since 1.0
+ *
  * @author Thiago Thomaz
+ * @since 1.0
  */
 public class Cliente extends Barcacao {
 
@@ -23,13 +24,14 @@ public class Cliente extends Barcacao {
 
     /**
      * Construtor da classe {@code Cliente}.
-     * @param modeloBarco o modelo do barco
+     *
+     * @param modeloBarco   o modelo do barco
      * @param anoFabricacao o ano de fabricação do barco
-     * @param nome o nome do cliente
-     * @param cpf o CPF do cliente
-     * @param email o e-mail do cliente
-     * @param telefone o telefone do cliente
-     * @param dataNasc a data de nascimento do cliente
+     * @param nome          o nome do cliente
+     * @param cpf           o CPF do cliente
+     * @param email         o e-mail do cliente
+     * @param telefone      o telefone do cliente
+     * @param dataNasc      a data de nascimento do cliente
      * @since 1.0
      */
     public Cliente(String modeloBarco, Date anoFabricacao, String nome, String cpf, String email, String telefone, Date dataNasc) {

@@ -5,8 +5,9 @@ import java.util.Date;
 /**
  * A classe {@code Barcacao} representa um barco com modelo e ano de fabricação.
  * Esta classe implementa a interface {@code Leitor}.
- * @since 1.0
+ *
  * @author Thiago Thomaz
+ * @since 1.0
  */
 public class Barcacao implements Leitor {
 
@@ -15,7 +16,8 @@ public class Barcacao implements Leitor {
 
     /**
      * Construtor da classe {@code Barcacao}.
-     * @param modeloBarco o modelo do barco
+     *
+     * @param modeloBarco   o modelo do barco
      * @param anoFabricacao o ano de fabricação do barco
      * @since 1.0
      */
@@ -27,7 +29,8 @@ public class Barcacao implements Leitor {
 
     /**
      * Valida os parâmetros de um barco.
-     * @param modeloBarco o modelo do barco
+     *
+     * @param modeloBarco   o modelo do barco
      * @param anoFabricacao o ano de fabricação do barco
      * @since 1.0
      */
@@ -43,6 +46,7 @@ public class Barcacao implements Leitor {
 
     /**
      * Retorna o ano de fabricação do barco.
+     *
      * @return o ano de fabricação do barco
      * @since 1.0
      */
@@ -52,6 +56,7 @@ public class Barcacao implements Leitor {
 
     /**
      * Retorna o modelo do barco.
+     *
      * @return o modelo do barco
      * @since 1.0
      */
@@ -61,6 +66,7 @@ public class Barcacao implements Leitor {
 
     /**
      * Método da interface {@code Leitor} que deve ser implementado.
+     *
      * @since 1.0
      */
     @Override
@@ -70,6 +76,7 @@ public class Barcacao implements Leitor {
 
     /**
      * Define o modelo do barco.
+     *
      * @param modeloBarco o novo modelo do barco
      * @since 1.0
      */
@@ -79,10 +86,20 @@ public class Barcacao implements Leitor {
 
     /**
      * Define o ano de fabricação do barco.
+     *
      * @param anoFabricacao o novo ano de fabricação do barco
      * @since 1.0
      */
     public void setAnoFabricacao(Date anoFabricacao) {
         this.anoFabricacao = anoFabricacao;
+    }
+
+    // Método de sobrescrita toString()
+    @Override
+    public String toString() {
+        return "Barcacao{" +
+                "modeloBarco='" + modeloBarco + '\'' +
+                ", anoFabricacao=" + anoFabricacao +
+                '}';
     }
 }

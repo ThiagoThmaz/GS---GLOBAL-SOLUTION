@@ -8,14 +8,16 @@ import static org.example.Cliente.validarDataNascimento;
 /**
  * A classe {@code Main} representa a Classe principal para testar valores.
  * Esta classe implementa os Teste da Classe {@code Cliente}.
- * @since 1.0
+ *
  * @author Thiago Thomaz
+ * @since 1.0
  */
 
 public class Main {
 
     /**
      * Método principal para testar a validação dos dados do cliente.
+     *
      * @param args argumentos da linha de comando
      * @since 1.0
      */

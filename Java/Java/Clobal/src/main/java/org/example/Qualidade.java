@@ -3,8 +3,9 @@ package org.example;
 /**
  * A classe {@code Qualidade} representa um parâmetro de qualidade com valores mínimo e máximo.
  * Esta classe implementa a interface {@code Leitor}.
- * @since 1.0
+ *
  * @author Thiago Thomaz
+ * @since 1.0
  */
 public class Qualidade implements Leitor {
 
@@ -14,7 +15,8 @@ public class Qualidade implements Leitor {
 
     /**
      * Construtor da classe {@code Qualidade}.
-     * @param parametro o nome do parâmetro de qualidade
+     *
+     * @param parametro   o nome do parâmetro de qualidade
      * @param valorMinino o valor mínimo aceitável para o parâmetro
      * @param valorMaximo o valor máximo aceitável para o parâmetro
      * @since 1.0
@@ -27,6 +29,7 @@ public class Qualidade implements Leitor {
 
     /**
      * Retorna o nome do parâmetro de qualidade.
+     *
      * @return o nome do parâmetro de qualidade
      * @since 1.0
      */
@@ -36,6 +39,7 @@ public class Qualidade implements Leitor {
 
     /**
      * Retorna o valor mínimo aceitável para o parâmetro.
+     *
      * @return o valor mínimo aceitável para o parâmetro
      * @since 1.0
      */
@@ -45,6 +49,7 @@ public class Qualidade implements Leitor {
 
     /**
      * Retorna o valor máximo aceitável para o parâmetro.
+     *
      * @return o valor máximo aceitável para o parâmetro
      * @since 1.0
      */
@@ -54,6 +59,7 @@ public class Qualidade implements Leitor {
 
     /**
      * Método da interface {@code Leitor} que deve ser implementado.
+     *
      * @since 1.0
      */
     @Override
